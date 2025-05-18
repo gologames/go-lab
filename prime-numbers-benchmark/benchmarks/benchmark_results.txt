@@ -1,0 +1,54 @@
+goos: windows
+goarch: amd64
+pkg: github.com/gologames/go-lab/prime-numbers-benchmark/internal
+cpu: Intel(R) Core(TM) Ultra 9 285H
+=== RUN   BenchmarkPrime_1
+BenchmarkPrime_1
+BenchmarkPrime_1-16
+       1        125420296700 ns/op      251546888 B/op        98 allocs/op
+=== RUN   BenchmarkPrime_2
+BenchmarkPrime_2
+BenchmarkPrime_2-16
+       1        76938597800 ns/op       251539176 B/op        67 allocs/op
+=== RUN   BenchmarkPrime_4
+BenchmarkPrime_4
+BenchmarkPrime_4-16
+       1        40477671000 ns/op       251540904 B/op        73 allocs/op
+=== RUN   BenchmarkPrime_8
+BenchmarkPrime_8
+BenchmarkPrime_8-16
+       1        17790908800 ns/op       251547816 B/op        95 allocs/op
+=== RUN   BenchmarkPrime_16
+BenchmarkPrime_16
+BenchmarkPrime_16-16
+       1        9835835700 ns/op        251573304 B/op       135 allocs/op
+=== RUN   BenchmarkPrime_32
+BenchmarkPrime_32
+BenchmarkPrime_32-16
+       1        6820413900 ns/op        251551288 B/op       134 allocs/op
+=== RUN   BenchmarkPrime_64
+BenchmarkPrime_64
+BenchmarkPrime_64-16
+       1        6295622800 ns/op        251571704 B/op       226 allocs/op
+=== RUN   BenchmarkPrime_128
+BenchmarkPrime_128
+BenchmarkPrime_128-16
+       1        6283241100 ns/op        251606072 B/op       419 allocs/op
+=== RUN   BenchmarkPrime_256
+BenchmarkPrime_256
+BenchmarkPrime_256-16
+       1        6203425900 ns/op        251682712 B/op       766 allocs/op
+=== RUN   BenchmarkPrime_512
+BenchmarkPrime_512
+BenchmarkPrime_512-16
+       1        6186840100 ns/op        251821048 B/op      1424 allocs/op
+=== RUN   BenchmarkPrime_1024
+BenchmarkPrime_1024
+BenchmarkPrime_1024-16
+       1        6116187200 ns/op        251955224 B/op      2140 allocs/op
+=== RUN   BenchmarkPrime_1048576
+BenchmarkPrime_1048576
+BenchmarkPrime_1048576-16
+       1        10549599700 ns/op       915673784 B/op   3140421 allocs/op
+PASS
+ok      github.com/gologames/go-lab/prime-numbers-benchmark/internal    321.550s
