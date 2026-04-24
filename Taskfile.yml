@@ -1,0 +1,12 @@
+# yaml-language-server: $schema=https://taskfile.dev/schema.json
+version: '3'
+
+tasks:
+  default:
+    desc: Build all modules
+    deps:
+      - build
+
+  build:
+    desc: Build all Go workspace modules
+    cmd: go run ./workspace go build -buildvcs=false ./...
